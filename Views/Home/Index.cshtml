@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="body">
+    <div class="pet-container">
+        <img class="pet-image" src="https://cdn2.thecatapi.com/images/bAiN3T-rs.jpg" alt="Pet image">
+    </div>
+    <div class="rating-bar">
+        <i class="fa fa-star star" id="1-star" style="color: black"></i>
+        <i class="fa fa-star star" id="2-star" style="color: black"></i>
+        <i class="fa fa-star star" id="3-star" style="color: black"></i>
+        <i class="fa fa-star star" id="4-star" style="color: black"></i>
+        <i class="fa fa-star star" id="5-star" style="color: black"></i>
+        <button type="button" class="btn btn-primary" id="next-button" onclick="this.blur();">Next</button>
+    </div>
+    
+    <div class="rated-images-container"></div>
+</div>
